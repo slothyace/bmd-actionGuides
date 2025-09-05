@@ -58,6 +58,7 @@ For example:
 ```
 
 ## Reading JSON Files
+![](https://github.com/slothyace/bmd-actionGuides/blob/main/.images/readJsonFile.png)
 Similar to creating JSON files, type in the path of your JSON file in relation to your project folder.
 
 ### Example of JSON file
@@ -78,6 +79,7 @@ Lets say you already know what you want to access from the JSON file, you can ju
 For example, I want to access the word `bar` from my JSON file, located in `content.b`, I would type `content.b` as the element path.  
 
 ## Modifying JSON Files
+![](https://github.com/slothyace/bmd-actionGuides/blob/main/.images/modifyJsonFile.png)
 Similar to creating JSON files, type in the path of your JSON file in relation to your project folder.  
 
 Next, select if you're creating/replacing a certain element, or deleting the element.  
