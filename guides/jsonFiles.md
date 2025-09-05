@@ -74,13 +74,13 @@ I would be storing this JSON as a variable `${tempVars('json')}`.
 To access the word `foo`, I can use `${tempVars('json').content.a}` and it will return `foo`.
 
 ### What if I already know which element I want from the JSON file?
-Lets say you already know what you want to access from the JSON file, you can just type in the element path.
-For example, I want to access the word `bar` from my JSON file, located in `content.b`, I would type `content.b` as the element path.
+Lets say you already know what you want to access from the JSON file, you can just type in the element path.  
+For example, I want to access the word `bar` from my JSON file, located in `content.b`, I would type `content.b` as the element path.  
 
 ## Modifying JSON Files
-Similar to creating JSON files, type in the path of your JSON file in relation to your project folder.
+Similar to creating JSON files, type in the path of your JSON file in relation to your project folder.  
 
-Next, select if you're creating/replacing a certain element, or deleting the element.
+Next, select if you're creating/replacing a certain element, or deleting the element.  
 
 If you're creating/replacing an element, you would have to type in the content of the element, be it `text`, `nested JSON` or a `list`.
 
