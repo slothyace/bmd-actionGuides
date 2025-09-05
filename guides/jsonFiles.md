@@ -104,7 +104,7 @@ Enabling pretty print would instead save it as:
 ```
 
 ## Validating JSON
-Once again, The `Create JSON File` and `Modify JSON File` mods have a button to `Validate JSON`.  
+The `Create JSON File` and `Modify JSON File` mods have a button to `Validate JSON`.  
 Clicking the button would do a basic validation of your JSON, letting you know if the content you've typed in is valid or not.
 
 Green - Valid  
