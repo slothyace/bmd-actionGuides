@@ -1,5 +1,5 @@
 # Evaluate
-! [](https://github.com/slothyace/bmd-actionGuides/blob/main/.images/evaluate.png)
+![](https://github.com/slothyace/bmd-actionGuides/blob/main/.images/evaluate.png)
 
 ## What does evaluate do?
 `Evaluate` runs Javascript code.
