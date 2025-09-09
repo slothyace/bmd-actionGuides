@@ -9,7 +9,10 @@
 
 `tasklist` will return a list of processes that are running on the machine.
 
-# Use Cases
+## Use Cases
 - Running schedules made with schedule manager.
 - Getting process IDs.
 - End processes with a command.
+
+## Full Windows Command Line Commands Documentation
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
