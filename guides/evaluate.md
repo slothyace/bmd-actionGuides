@@ -30,6 +30,33 @@ To reference `Global` variables;
 let foo = bridge.data.globalVars["..."]
 ```
 
+## Storing Variables
+To store `Temporary` variables;
+```js
+let bridge.variables["..."] = value
+```
+
+To store `Server` variables;
+```js
+let bridge.data.serverVars["serverId"]["..."] = value
+```
+
+To store `Global` variables;
+```js
+let bridge.data.globalVars["..."] = value
+```
+
+Using stored variables;
+The ["..."] would be the name of the variable, so for example;
+```js
+let bridge.variables["foo"] = "bar"
+```
+
+I would then access the variable like this;
+```js
+${tempVars('foo')} // "bar"
+```
+
 ## Whats the difference between `Execute` and `Evaluate`?
 `Execute ` - Runs **operating system** commands.<br>
 `Evaluate` - Run **Javascript** code.
