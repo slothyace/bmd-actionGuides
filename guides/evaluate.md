@@ -46,7 +46,7 @@ To store `Global` variables;
 let bridge.data.globalVars["..."] = value
 ```
 
-Using stored variables;
+## Using Stored Variables
 The ["..."] would be the name of the variable, so for example;
 ```js
 let bridge.variables["foo"] = "bar"
